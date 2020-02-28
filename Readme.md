@@ -20,7 +20,7 @@ You can run the [script file](./script.sh) to install the essentials.
 
 # Prerequisites
 
-GKuiz was developed primarily using Python-Flask. To run GKuiz on your local machine your machine should have the following installed:-
+Alphers Quiz was developed primarily using Python-Flask. To run Alphers Quiz on your local machine your machine should have the following installed:-
 
 - [Python v3.5](https://docs.python.org/3/)
 - [Flask v0.12](http://flask.pocoo.org/docs/0.12/)
@@ -47,9 +47,9 @@ If you get a message that indicates that your server is up and running, you are 
 
 # Authors
 
-    Sughosh Dixit
-    Prajwal B R
-    Akash B G
+    Sughosh Dixit,  B.I.T, Intern at Siemens AG
+    Prajwal B R, B.I.T, Intern at Printalytix Pvt Ltd
+    Akash B G, B.I.T, Intern at Selvitate
 
 # Challenges Faced
 
