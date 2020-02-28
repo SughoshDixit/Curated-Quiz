@@ -90,7 +90,7 @@
               style="width:100%"
             />
             <div class="card-body">
-              <h4 class="card-title"><b>Physics</b></h4>
+              <h4 class="card-title"><b>Science</b></h4>
               <p class="card-text">
                 {% if physics == 0 %} Not Attempted {% else %} {{ physics }} {%
                 endif %}
@@ -100,26 +100,6 @@
               >
             </div>
             <br />
-          </div>
-        </div>
-        <div class="col-sm-12 col-md-6">
-          <div class="card" style="width:30vw">
-            <img
-              class="card-img-top"
-              src="../static/Chemistry.jpeg"
-              alt="Chemistry"
-              style="width:100%"
-            />
-            <div class="card-body">
-              <h4 class="card-title"><b>Chemistry</b></h4>
-              <p class="card-text">
-                {% if chemistry == 0 %} Not Attempted {% else %} {{ chemistry }}
-                {% endif %}
-              </p>
-              <a href="/quiz/Science/chemistry" class="btn btn-primary"
-                >Start New Quiz</a
-              >
-            </div>
           </div>
         </div>
       </div>

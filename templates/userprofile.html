@@ -144,12 +144,12 @@
 
       	var piedata = google.visualization.arrayToDataTable([
       		['Category', 'Score'],
-      		['Sports',     {{ sports|safe }}],
-      		['Movies',      {{ movies|safe }}],
-      		['Literature',  {{ literature|safe }}],
-      		['Science', {{ science|safe }}],
-      		['History', {{ history|safe }}],
-      		['Current Affairs', {{ currentaffairs|safe }}]
+      		['General Mental Ability',     {{ sports|safe }}],
+      		['Reasoning',      {{ movies|safe }}],
+      		['Mathematics',  {{ literature|safe }}],
+      		['General Science', {{ science|safe }}],
+      		['General Knowledge', {{ history|safe }}],
+      		['General Knowledge', {{ currentaffairs|safe }}]
       		]);
       	var options = {
       		title: 'Performance'
